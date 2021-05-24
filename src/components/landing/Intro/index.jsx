@@ -8,6 +8,7 @@ import ba from 'assets/illustrations/ba.png'
 import la from 'assets/illustrations/la.jpg'
 import cp from 'assets/bg/connection-pattern.svg'
 import ap from 'assets/bg/advantages-bottom-pattern.svg'
+import at from 'assets/bg/advantages-top-pattern.svg'
 
 
 export const Intro = () => {
@@ -15,6 +16,8 @@ export const Intro = () => {
   return (
     <Wrapper >
       <Header />
+      {/* <img src={ap} style={{ marginTop: '9rem', marginBottom: '-2rem' }} /> */}
+      {/* <div style={{ background: 'white' }}> */}
       <IntroWrapper as={Container}>
         <Details>
           <Cover>
@@ -34,6 +37,8 @@ export const Intro = () => {
           </Card>
         </Details>
       </IntroWrapper>
+      {/* </div> */}
+      {/* <img src={at} style={{ marginTop: '0rem' }} /> */}
     </Wrapper>
   );
 };
